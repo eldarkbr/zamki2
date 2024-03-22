@@ -1,0 +1,63 @@
+/* portfolio */
+.portfolio {
+	background-color: #FAFAFA;
+	margin-top:-0%;
+}
+.portfolio h6 {
+	color: #1f1f1f;
+	margin-top: 1%;
+	
+}
+
+.portfolio p {
+	margin-bottom: -5%;
+}
+
+.portfolio-caption {
+	background-color: #fff;
+	padding: 15px;
+	margin-bottom: 30px;
+	-webkit-box-shadow: 0px 4px 12px 0px rgba(36,39,46,0.1);
+	-moz-box-shadow: 0px 4px 12px 0px rgba(36,39,46,0.1);
+	box-shadow: 0px 4px 12px 0px rgba(36,39,46,0.1);
+}
+.portfolio-caption p {
+	padding-bottom: 5px;
+}
+figure {
+	margin: 0;
+	padding: 0;
+	background: #a2f1ff;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: 40px;
+	opacity: 1;
+}
+.show-more-btn {
+	margin: 0 auto;
+}
+.btn-wrap a {
+	-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	display: block;
+	margin: 20px auto;
+	max-width: 600px;
+	text-decoration: none;
+	border-radius: 2px;
+	padding: 8px 13px;
+	font-size: 11px;
+	font-weight: 800;
+}
+a.button2 {
+	color: rgb(255, 255, 255);
+	box-shadow: rgba(44, 71, 85, 0.9) 0 0px 0px 1px inset;
+	background-color: #5e96b4;
+}
+a.button2:hover {
+	color: #10CAB7;
+	box-shadow: rgba(44, 71, 85, 1) 0 80px 0px 1px inset;
+}
